@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <style>
+        /* Common styles */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            width: 90%;
+            max-width: 650px;
+            margin: 150px auto;
+            background-color: white;
+        }
+
+        h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        label {
+            font-size: 20px;
+        }
+
+        input {
+            height: 40px;
+            width: 90%;
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+
+        .dhruv,
+        .dhruv1 {
+            width: 45%;
+            float: left;
+            margin-left: 25px;
+            margin-top: 9px;
+        }
+
+        .dhruv3,
+        .dhruv5,
+        .dhruvin {
+            width: 100%;
+            float: left;
+            margin-top: 10px;
+        }
+
+        .dhruv6 {
+            margin-left: 10px;
+        }
+
+        .dhruvin2 {
+            margin-left: 45px;
+        }
+
+        .dhruvin3 {
+            margin-left: 20px;
+        }
+
+        #dhruvin4,
+        #dhruvin5,
+        #dhruvin6 {
+            height: 20px;
+            width: 20px;
+            margin-left: 10px;
+        }
+
+        #dhruvin7 {
+            width: 100%;
+            font-size: 20px;
+            background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .dhruv,
+            .dhruv1 {
+                width: 100%;
+                float: none;
+                margin-left: 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h2 {
+                font-size: 24px;
+            }
+
+            label {
+                font-size: 18px;
+            }
+
+            input {
+                height: 35px;
+            }
+
+            .dhruv,
+            .dhruv1 {
+                width: 100%;
+                float: none;
+                margin-left: 0;
+            }
+
+            .dhruvin2 {
+                margin-left: 0;
+            }
+
+            #dhruvin4,
+            #dhruvin5,
+            #dhruvin6 {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body style="background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);">
+
+    <table border="1" align="center">
+        <tr>
+            <td>
+
+                <h2><b>Registration</b></h2>
+
+                <form action="">
+
+                    <div class="dhruv">
+                        <label>Name:</label><br>
+                        <input type="text" placeholder="Enter Your Name">
+                    </div>
+
+                    <div class="dhruv1">
+                        <label>Username:</label><br>
+                        <input type="text" placeholder="Enter Your Username">
+                    </div>
+
+                    <div class="dhruv3">
+                        <label>Email:</label><br>
+                        <input type="email" placeholder="Enter Your Email">
+                    </div>
+
+                    <div class="dhruv3">
+                        <label>Phone Number:</label><br>
+                        <input type="number" placeholder="Enter Your Number">
+                    </div>
+
+                    <div class="dhruvin">
+                        <label>Password:</label><br>
+                        <input type="password" placeholder="Enter Your Password">
+                    </div>
+
+                    <div class="dhruvin">
+                        <label>Confirm Password:</label><br>
+                        <input type="password" placeholder="Enter Your Confirm Password">
+                    </div>
+
+                    <div class="dhruvin3">
+                        <label>Gender:</label><br>
+                        <input id="dhruvin4" type="radio" name="gender">Male
+                        <input id="dhruvin5" type="radio" name="gender">Female
+                        <input id="dhruvin6" type="radio" name="gender">Other
+                    </div>
+
+                    <input id="dhruvin7" type="submit" value="Submit">
+
+                </form>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
